@@ -1,38 +1,23 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import NavBar from './Componentes/NavBar'
-import Contairs from './Componentes/Contairs' 
+import { Routes, Route } from 'react-router-dom'
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 import Home from './Paginas/Home'
-import Footer from './Componentes/Footer'
-import './App.css'
+import Sobre from './Paginas/Sobre'
+import Contacto from './Paginas/Contacto'
 
 function App() {
-
-  return(
-    <Router>
-      <div className={styles.appLayout}>
-        <NavBar/>
-        <main>
-          <Contairs customClass="min-height">
-            <Routes>
-          
-              <Route path="/Home" element={<Home />}></Route>
-
-
-            </Routes>
-          </Contairs>
-          
-        </main>
-        <Footer/>
-
-      </div>
-            
-    </Router>
+  return (
+    <>
+      <Header />
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/sobre" element={<Sobre />} />
+          <Route path="/contacto" element={<Contacto />} />
+        </Routes>
+      </main>
+      <Footer />
+    </>
   )
-
-
-  
-
-  
 }
-
 export default App
