@@ -1,3 +1,4 @@
+import { FaWhatsapp } from 'react-icons/fa'
 import './BotaoPedido.css'
 
 
@@ -18,7 +19,7 @@ function BotaoPedido({item}){
 
     return(
 
-        <button className="bnt-pedido" onClick={fazerPedido}>Fazer Pedido</button>
+        <button className="bnt-pedido" onClick={fazerPedido}> <FaWhatsapp/> Fazer Pedido</button>
 
     )
 }

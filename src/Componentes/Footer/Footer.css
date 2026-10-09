@@ -1,0 +1,28 @@
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 32px 8%;
+  background: var(--fundo-alt);
+  color: var(--texto-suave);
+}
+.redes {
+    display: flex;
+    
+}
+.redes p {
+    padding: 0 8px;
+    justify-content: end;
+}
+.redes a {
+    padding: 0 8px;
+    font-size:34px ;
+    transition: color 0.3s ease;
+}
+.rdes a:hover {
+    
+    
+}

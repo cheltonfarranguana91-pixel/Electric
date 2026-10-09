@@ -25,6 +25,6 @@
 }
 
 .cartao .cartao-info p {
-  color: white;
+  color: var(--texto);
   text-align: start;
 }

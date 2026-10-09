@@ -2,6 +2,7 @@ import Hero from '../Componentes/Hero/Hero'
 import CartaoServico from '../Componentes/CartaoServico/CartaoServico'
 import { servicos } from '../Data/Servicos'
 import './Home.css'
+import BotaoPedido from '../Componentes/BotaoPedido/BotaoPedido'
 
 
 function Home() {
@@ -22,8 +23,6 @@ function Home() {
       <section className="como-funciona">
         <div>
             <h3>Como fazer o Pedido?</h3>
-        
-        
             <ol className='passos'>
                 <li className='lista'>Escolhe o serviço que queres.</li>
                 <li className='lista'>Clica em "Fazer pedido" e fala connosco no WhatsApp.</li>
@@ -35,6 +34,7 @@ function Home() {
       <section className="cta">
         <div>
             <h3>Pronta para ficar ainda mais bonita?</h3>
+            
         </div>
       </section>
     </>
