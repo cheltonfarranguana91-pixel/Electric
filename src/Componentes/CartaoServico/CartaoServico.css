@@ -1,0 +1,30 @@
+
+.cartao {
+  background: var(--fundo-alt);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  border-radius: 12px;
+  overflow: hidden;
+  display: grid;
+}
+
+.cartao img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;   /* a foto preenche sem deformar */
+}
+
+.cartao-info {
+  padding: 20px;
+  color: var(--dourado);
+  text-align: start;
+
+}
+
+.cartao-info h3 {
+  color: var(--dourado);
+}
+
+.cartao .cartao-info p {
+  color: white;
+  text-align: start;
+}

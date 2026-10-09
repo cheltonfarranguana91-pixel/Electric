@@ -1,9 +1,10 @@
 import { Routes, Route } from 'react-router-dom'
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
+import Header from './Componentes/Header/Header'
+import Footer from './Componentes/Footer/Footer'
 import Home from './Paginas/Home'
 import Sobre from './Paginas/Sobre'
 import Contacto from './Paginas/Contacto'
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {
   return (

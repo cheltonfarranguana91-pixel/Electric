@@ -1,0 +1,14 @@
+
+.bnt-pedido{
+    background-color: var(--dourado);
+    color: var(--fundo);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.bnt-pedido:hover{
+    background-color: var(--dourado-claro);
+}

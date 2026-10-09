@@ -1,0 +1,65 @@
+.hero {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  padding: 0 8%;
+  background-image:
+    linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.1) 100%),
+    url('../../assets/hero-completa.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-conteudo {
+  max-width: 500px;
+  text-align: left;
+  color: #fff;
+}
+
+.hero-conteudo h1 {
+  font-size: 3rem;
+  color: var(--dourado);
+  margin-bottom: 16px;
+}
+
+.hero-conteudo p {
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+  color: var(--texto);
+}
+
+.bnt-pedido {
+  display: inline-block;
+  background: var(--dourado);
+  color: var(--fundo);
+  padding: 12px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero .bnt-pedido:hover {
+  background: var(--dourado-claro);
+}
+
+/* telemóvel e tablet */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 80vh;
+    justify-content: center;
+    padding: 0 6%;
+    background-image:
+      linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url('../../assets/img/hero-mobile.jpg');
+    background-position: center top;
+  }
+
+  .hero-conteudo {
+    text-align: center;
+  }
+
+  .hero-conteudo h1 {
+    font-size: 2.2rem;
+  }
+}

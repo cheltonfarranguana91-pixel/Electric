@@ -1,13 +1,13 @@
 :root {
-  --cor-header: #c77b67;
-  --cor-bg: #faf6f3;
-  --cor-footer: #8a4a3d;
-  --cor-texto:#222;
+  --cor-header: #0d0d0d;
+  --fundo: #faf6f3;
+  --fundo-alt:#1a1a1a;
+  --dourado:#d4af37;
+  --dourado-claro:#e6c75a;
+  --cor-texto:#f5f5f5;
+  --texto-suave:#b8b8b8;
   --cor-text-ft:#fff;
- 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
+  
 
   @media (max-width: 1024px) {
     font-size: 16px;
@@ -24,7 +24,16 @@
 }
 
 body {
+  background: var(--fundo);
+  color: var(--cor-texto);
   margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
+
+h1, h2, h3 {
+  font-family: 'playfair Display', serif;
+}
+
 
 

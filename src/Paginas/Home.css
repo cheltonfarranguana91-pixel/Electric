@@ -1,0 +1,72 @@
+
+
+.servicos {
+    background-color: var(--fundo);
+    padding: 88px 8%;
+}
+
+.servicos h2{
+    text-align: center;
+    font-size: 2.3rem;
+    color: var(--dourado);
+    margin-bottom: 0;
+}
+.servicos p {
+    color: #222;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.cartoes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24pxhr
+    
+}
+.como-funciona div {
+    background-color: var(--fundo-alt);
+    padding-top:10px ;
+    padding-bottom: 30p;    
+}
+.como-funciona h3 {
+    color: var(--dourado);
+    font-size: 2.3rem;
+    text-align: center;
+    margin-top: 38px;
+}
+.passos{
+    list-style: none;
+    padding: 0;
+    counter-reset: passo;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+}
+.passos li {
+    counter-increment: passo;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    text-align: center;
+    color: white;
+    padding-bottom: 25px;
+}
+.passos li::before {
+  content: counter(passo);   /* escreve o número */
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;        /* faz o círculo */
+  border: 2px solid var(--dourado);
+  color: var(--dourado);
+  display: flex;
+  align-items: center;       /* centra o número no círculo */
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.cta h3 {
+    color: #222;
+    text-align: center;
+
+}
