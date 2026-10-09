@@ -6,7 +6,7 @@ function BotaoPedido({item}){
     const numero = '258875942284'
 
     function fazerPedido(){
-        const mensagem = `Olá! Quero fazer o pedido: ${item}`
+        const mensagem = `Olá! Quero fazer o pedido: ${item}, Qual e o preco? `
         const texto = encodeURIComponent(mensagem)
         window.location.href = `whatsapp://send?phone= ${numero}&text=${texto}`
 
