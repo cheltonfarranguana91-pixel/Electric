@@ -3,7 +3,7 @@ import './BotaoPedido.css'
 
 
 function BotaoPedido({item}){
-    const numero = '258876770219'
+    const numero = '258875942284'
 
     function fazerPedido(){
         const mensagem = `Olá! Quero fazer o pedido: ${item}`
@@ -19,7 +19,7 @@ function BotaoPedido({item}){
 
     return(
 
-        <button className="bnt-pedido" onClick={fazerPedido}> <FaWhatsapp/> Fazer Pedido</button>
+        <button className="btn-pedido" id='bntP' onClick={fazerPedido}> <FaWhatsapp/> Fazer Pedido</button>
 
     )
 }

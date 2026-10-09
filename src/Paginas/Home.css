@@ -12,13 +12,16 @@
 }
 .servicos p {
     color: #222;
+    padding: 12px 2px;
+}
+#desc{
     text-align: center;
-    margin-bottom: 48px;
 }
 
 .cartoes {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 290px));
     gap: 24px;
     
 }

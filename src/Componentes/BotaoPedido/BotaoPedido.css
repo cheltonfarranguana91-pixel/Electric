@@ -1,5 +1,5 @@
 
-.bnt-pedido{
+.btn-pedido{
     background-color: var(--dourado);
     color: var(--fundo);
     border: none;
@@ -7,8 +7,4 @@
     border-radius: 6px;
     cursor: pointer;
     font-weight: 600;
-}
-
-.bnt-pedido:hover{
-    background-color: var(--dourado-claro);
 }

@@ -12,7 +12,7 @@ function Home() {
 
       <section id="pedidos" className="servicos">
         <h2>Os nossos Servicos</h2>
-        <p>Escolha o servico e faz o pedido pelo nosso WhatsApp</p>
+        <p id='desc'>Escolha o servico e faz o pedido pelo nosso WhatsApp</p>
         <div className="cartoes">
           {servicos.map((item) => (
             <CartaoServico key={item.id} servico={item} />
