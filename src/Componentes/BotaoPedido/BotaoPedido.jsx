@@ -3,10 +3,10 @@ import './BotaoPedido.css'
 
 
 function BotaoPedido({item}){
-    const numero = '258875942284'
+    const numero = '258876998569'
 
     function fazerPedido(){
-        const mensagem = `Olá! Quero fazer o pedido: ${item}, Qual e o preco? `
+        const mensagem = `Olá! Quero fazer o pedido: ${item},`
         const texto = encodeURIComponent(mensagem)
         window.location.href = `whatsapp://send?phone= ${numero}&text=${texto}`
 

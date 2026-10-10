@@ -5,24 +5,50 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 16px;
-  padding: 32px 8%;
+  margin: 0;
+  padding: 28px 8%;
   background: var(--fundo-alt);
   color: var(--texto-suave);
+  font-size: 0.95rem;
 }
-.redes {
+.footer p {
+    margin: 0;
+}
+.contactos{
     display: flex;
-    
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
-.redes p {
-    padding: 0 8px;
-    justify-content: end;
-}
-.redes a {
-    padding: 0 8px;
-    font-size:34px ;
+.footer a {
+    color: var(--dourado-claro);
+    text-decoration: none;
     transition: color 0.3s ease;
 }
-.rdes a:hover {
+.footer a:hover {
+    color: #222;
+}
+
+.redes {
+    display: flex;
+    gap: 20px;
     
+}
+.redes a:hover {
+    color: #222;
     
+}
+.redes svg {
+    display: block;
+    font-size: 26px;
+}
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contactos{
+        justify-content: center;
+    }
+
 }

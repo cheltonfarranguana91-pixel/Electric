@@ -11,8 +11,8 @@ function Home() {
       <Hero />
 
       <section id="pedidos" className="servicos">
-        <h2>Os nossos Servicos</h2>
-        <p id='desc'>Escolha o servico e faz o pedido pelo nosso WhatsApp</p>
+        <h2>Os nossos Serviços</h2>
+        <p id='desc'>Escolha o serviço e faz o pedido pelo nosso WhatsApp</p>
         <div className="cartoes">
           {servicos.map((item) => (
             <CartaoServico key={item.id} servico={item} />
@@ -29,12 +29,6 @@ function Home() {
                 <li className='lista'>Combinamos o dia e a hora.</li>
                 <li className='lista'>Vem ao salão e relaxa.</li>
             </ol>
-        </div>
-      </section>
-      <section className="cta">
-        <div>
-            <h3>Pronta para ficar ainda mais bonita?</h3>
-            
         </div>
       </section>
     </>

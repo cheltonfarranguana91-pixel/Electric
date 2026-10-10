@@ -8,14 +8,18 @@
     text-align: center;
     font-size: 2.3rem;
     color: var(--dourado);
-    margin-bottom: 0;
+    margin: 0;
+   
 }
 .servicos p {
     color: #222;
     padding: 12px 2px;
+
 }
 #desc{
     text-align: center;
+    margin-top: 8px;
+    padding-top: 5px;
 }
 
 .cartoes {
@@ -27,10 +31,12 @@
 }
 .como-funciona div {
     background-color: var(--fundo-alt); 
+    padding: 45px 2%;
 }
 .como-funciona h3 {
     color: var(--dourado);
     font-size: 2.3rem;
+    margin: 0 0 48px;
     text-align: center;
 }
 .passos{
@@ -60,9 +66,18 @@
   border: 2px solid var(--dourado);
   color: var(--dourado);
   display: flex;
+  font-family: 'Playfair Display', serif;
   align-items: center;       /* centra o número no círculo */
   justify-content: center;
   font-size: 1.5rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.passos li:hover::before{
+    background-color: var(--dourado);
+    color: #fff;
+    cursor: pointer;
+    
 }
 
 .cta{

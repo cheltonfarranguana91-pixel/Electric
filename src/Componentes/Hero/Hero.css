@@ -52,7 +52,7 @@
     padding: 0 6%;
     background-image:
       linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-      url('../../assets/img/hero-mobile.jpg');
+      url('../../assets/hero-mobile.jpg');
     background-position: center top;
   }
 
