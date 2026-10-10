@@ -22,6 +22,6 @@ export const servicos = [
   { id: 6, nome: 'Nagô com Cachos e Missangas', descricao: 'Nagô clássica com cachos longos e uma trança decorada com missangas e búzio. Um visual elegante, com um toque de tradição.', imagem: Nago},
   { id: 7, nome: 'Nagô com Missangas', descricao: 'Nagô com desenho na lateral e tranças decoradas com missangas, junto a cachos volumosos soltos. Um visual marcante, com toque artesanal.', imagem: Missangas },
   { id: 8, nome: 'Rabo de Cavalo com Nagô', descricao: 'Tranças nagô em leque que sobem até um rabo de cavalo alto, com cachos longos e mechas loiras. Um penteado elegante e cheio de destaque.', imagem: Rabo },
-  { id: 9, nome: 'Pedicure', descricao: 'Cuidado completo dos pés, com unhas bem tratadas e esmaltação de longa duração. Pés bonitos e confortáveis em qualquer estação.', imagem:  },
+  { id: 9, nome: 'Pedicure', descricao: 'Cuidado completo dos pés, com unhas bem tratadas e esmaltação de longa duração. Pés bonitos e confortáveis em qualquer estação.', imagem: '' },
   
 ]
